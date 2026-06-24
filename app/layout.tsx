@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Vet Santa Maria",
-  description: "Clínica veterinária de Santa Maria",
+  description: "Clínica veterinária Santa Maria",
 };
 
 export default function RootLayout({
@@ -35,9 +35,6 @@ export default function RootLayout({
               Clínica veterinária de Santa Maria
             </Link>
             <div className="flex items-center gap-6 text-sm font-medium text-zinc-300">
-              <Link href="/" className="transition hover:text-white">
-                Home
-              </Link>
               <Link href="/sobre" className="transition hover:text-white">
                 Sobre
               </Link>
